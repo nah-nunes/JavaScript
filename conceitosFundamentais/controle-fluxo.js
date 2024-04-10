@@ -136,7 +136,20 @@ checkAverageApproval(2, 5, 9)
 checkAverageApproval(6, 5, 10)
 
 //11. Escreva um programa que determine o maior de três números.
+function findBiggest(num1, num2,num3){
+  if(num1 === num2 === num3){
+    console.log("numeros iguais");
+  }else if((num1 > num2) && (num1 > num2)){
+    console.log(num1)
+  }else if((num2> num1 )&& (num2 > num3)){
+    console.log(num2)
+  }else{
+    console.log(num3)
+  }
 
+}
+findBiggest(12, 38, 50)
+findBiggest(50, 50, 50)
 
 //13. Crie um programa que determine se um número é positivo e múltiplo de 2 ao mesmo tempo.
 function checkEvenOddAndPositive(number){
@@ -146,4 +159,44 @@ function checkEvenOddAndPositive(number){
     console.log("Não é positivo e multiplo de 2")
   }
 }
+
+// 14 Imprimir números pares de 1 a 20:
+function checkEven(){
+  for(let i =2;i<=20; i+=2){
+    console.log(i)
+  }
+}
+//checkEven()
+//15. Somar todos os números pares de 1 a 1000
+function addEven(){
+  let result = 0
+  for(let i =2; i<1000; i+=2){
+    result += i;
+   
+  }
+  console.log(`Soma: ${result}`);
+}
+addEven()
+
+//16. Imprimir a tabuada do 7 
+function multipleTable7 (){
+  for(let i =1; i <= 10; i ++){
+    console.log(`${7} x ${i} = ${7 * i}`);
+  }
+
+}
+
+multipleTable7()
+
+//17 transforme a função anterior para receber por padrão qual a tabuada 
+function multipleTable (number){
+for(let i =1; i <= 10; i ++){
+  console.log(`${number} x ${i} = ${number * i}`);
+}
+
+}
+
+multipleTable(4)
+
+// 18. Criar um programa que adivinha um número secreto 
 
