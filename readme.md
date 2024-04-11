@@ -35,7 +35,7 @@ Esse cronograma pode ser alterado conforme progrido nos estudos
     - [x]  Revisão de conceitos básicos de JS(variáveis, tipos de dados)
     - [x]  Revisão de estruturas de controle de fluxo (if, else, switch) e loops (for, while).
 - Dia 02
-    - [ ]  Funções avançadas: declaração de função, expressões de função, funções de seta e funções de callback.
+    - [x]  Funções avançadas: declaração de função, expressões de função, funções de seta e funções de callback.
 - Dia 03
     - [ ]  Escopo em JavaScript: escopo global, escopo local, closures, funções de alta ordem, currying
 - Dia 04

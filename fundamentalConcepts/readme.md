@@ -1,6 +1,4 @@
 ### Dia 1-5: Conceitos Fundamentais Intermediários
-
-
 - Dia 02
     - [ ]  Funções avançadas: declaração de função, expressões de função, funções de seta e funções de callback.
 - Dia 03
@@ -11,10 +9,17 @@
     - [ ]  Objetos em JavaScript: propriedades, métodos, prototipagem e herança.
 - Dia 06
     - [ ]  Introdução ao ES6(módulos, classes, arrow functions, promises)
-
+## Índice
+- [1. Variáveis](#variáveis)
+- [2.Estruturas de controle de fluxo](#estruturas-de-controle-de-fluxo)
+- [3. Funções](#funções)
+- [4. Escopo](#escopo)
+- [5. Arrays](#arrays)
+- [6. Objetos](#objetos)
+- [7. Introdução ao ES6](#introdução-ao-es6)
 <hr>
 
-### Conceitos fundamentais 
+## Conceitos fundamentais 
 
 #### Variáveis
 Em Js pode-se declarar variáveis usando as palavras chaves 'var', 'let' ou 'const'.
@@ -177,8 +182,43 @@ do {
 
 <hr>
 
+#### Funções
 
+- ##### Declaração 
+Consiste em usar a palavra-chave `function`, seguida pelo nome da função, uma lista de parâmetros entre parênteses e o corpo da função entre  chaves`{}`.
+```javascript
+function soma(a,b){
+    return a + b;
+}
+```
+- ##### Expressão de função
+É uma forma de definir uma função como parte de uma expressão JS. Isso significa que a função pode ser atribuída a uma variável, passada como argumento para outra função ou retornada de outra função. 
+```javascript
+const soma = function(a,b){
+    return a+b;
+};
+```
+- ##### Funções de seta (Arrow functions)
+Forma mais concisa de definir funções em JS. 
+```javascript
+const soma = (a+ b ) => a+b;
+```
 
+- ##### Callbacks
+Uma função callback é uma função passada como argumento para outra função. Ela é executada após a conclusão de uma determinada operação assíncrona ou evento. 
+```javascript
 
+setTimeout(() => {
+  console.log('A função de callback foi executada!');
+}, 1000);
 
- 
+```
+ - ##### Funções de alta ordem
+ São funções que aceitam outras funções como argumentos ou retornam outras funções. Úteis para abstrair operações comuns e promover a reutilização de código.
+ ```javascript
+const dobrar = (x) => x * 2;
+
+const aplicarFuncao = (funcao, valor) => funcao(valor);
+
+console.log(aplicarFuncao(dobrar, 5)); // Saída: 10
+```
