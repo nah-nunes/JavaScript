@@ -222,3 +222,56 @@ const aplicarFuncao = (funcao, valor) => funcao(valor);
 
 console.log(aplicarFuncao(dobrar, 5)); // Saída: 10
 ```
+<hr>
+
+##### Escopo Global e Escopo Local 
+
+- Escopo Global: Refere-se ao contexto geral do seu código. As variáveis definidas de qualquer função têm escopo global e podem ser acessadas de qualquer lugar no seu código.
+- Escopo Local: Refere-se ao contexto dentro de uma função. As variáveis definidas dentro de uma função têm escopo local e só podem ser acessadas dentro dessa função.
+```javascript
+// Escopo global
+var globalVar = "Eu sou global";
+
+function minhaFuncao() {
+    // Escopo local
+    var localVar = "Eu sou local";
+    console.log(globalVar); // Acesso a uma variável global
+}
+
+minhaFuncao();
+console.log(globalVar); // Acesso a uma variável global fora da função
+// console.log(localVar); // Isso resultaria em um erro, porque localVar é local à função minhaFuncao
+```
+
+##### Closures:
+- Um closure em js é uma função que "lembra" do escopo em que foi criada, mesmo depois de ter saído desse escopo.
+- Isso permite que a função tenha acesso às variáveis que estavam disponíveis no momento em que foi criada.
+
+```javascript
+function saudacao(nome) {
+    var mensagem = "Olá, " + nome + "!";
+    return function() {
+        console.log(mensagem);
+    };
+}
+
+var saudacaoParaJoao = saudacao("João");
+saudacaoParaJoao(); // Irá imprimir "Olá, João!"
+
+```
+##### Currying 
+- técnica onde uma função com vários argumentos é transformada em que uma sequência de funções que levam apenas um argumento.
+- útil porque permite que você crie funções mais especializadas a partir de funções mais genéricas. 
+
+```javascript 
+function somaCurried(a) {
+    return function(b) {
+        return a + b;
+    };
+}
+
+var soma5 = somaCurried(5);
+console.log(soma5(3)); // Retorna 8
+
+```
+
