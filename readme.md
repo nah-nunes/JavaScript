@@ -37,7 +37,7 @@ Esse cronograma pode ser alterado conforme progrido nos estudos
 - Dia 02
     - [x]  Funções avançadas: declaração de função, expressões de função, funções de seta e funções de callback.
 - Dia 03
-    - [ ]  Escopo em JavaScript: escopo global, escopo local, closures, funções de alta ordem, currying
+    - [x]  Escopo em JavaScript: escopo global, escopo local, closures, funções de alta ordem, currying
 - Dia 04
     - [ ]  Arrays: métodos avançados como map(), filter(), reduce() e forEach().
 - Dia 05
