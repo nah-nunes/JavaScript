@@ -24,12 +24,14 @@
    - Conhecer os operadores de atribuição e comparação ('=', '==', '===')
    - Usar estruturas de repetição e laços ('while', 'for')
    - Usar funções, passando parâmetros e argumentos
+   *to aqui*
    - Manipular arrays e listas
    - Aprender o conceito de Orientação a Objetos
    - Fazer um CRUD
    - Obter dados de uma API
    - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc<br>
    *******************************************************************************
+   
 - [ ] **Node.js - Fundamentos**:
    - Node.js é um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem de forma autônoma, sem depender de um navegador.
    - Conhecer operações bloqueantes e não-bloqueantes
