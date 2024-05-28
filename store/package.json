@@ -1,0 +1,14 @@
+{
+  "name": "products",
+  "version": "y",
+  "description": "y",
+  "main": "y",
+  "repository": "y",
+  "author": "y",
+  "license": "y",
+  "private": true,
+  "dependencies": {
+    "express": "^4.19.2",
+    "node": "^18.20.3"
+  }
+}

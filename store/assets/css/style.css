@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#card{
+  background-color: #a09595;
+  height:60vh;
+  padding: 20px;
+}
+
+.products{
+  width: 30%;
+  background-color: #f7f3f3;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#card .products img{
+  width: 200px;
+}

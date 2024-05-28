@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Caneta Esferográfica Azul",
+    "description": "Caneta esferográfica de tinta azul, ponta média.",
+    "preço": 1.50,
+    "image": "./assets/imgs/product1"
+  },
+  {
+    "id": 2,
+    "name": "Lápis de Cor 12 Cores",
+    "description": "Conjunto de 12 lápis de cor com cores vibrantes.",
+    "preço": 8.90,
+    "image": "./assets/imgs/product2"
+  },
+  {
+    "id": 3,
+    "name": "Caderno Universitário 200 Folhas",
+    "description": "Caderno espiral universitário com 200 folhas pautadas.",
+    "preço": 12.30,
+    "image": "./assets/imgs/product3"
+  },
+  {
+    "id": 4,
+    "name": "Borracha Branca",
+    "description": "Borracha branca para apagar lápis, não borra.",
+    "preço": 0.80,
+    "image": "./assets/imgs/product4"
+  },
+  {
+    "id": 5,
+    "name": "Marcador Permanente Preto",
+    "description": "Marcador permanente com ponta grossa, cor preta.",
+    "preço": 3.20,
+    "image": "./assets/imgs/product5"
+  },
+  {
+    "id": 6,
+    "name": "Apontador com Depósito",
+    "description": "Apontador de lápis com depósito para resíduos.",
+    "preço": 2.00,
+    "image": "./assets/imgs/product6"
+  },
+  {
+    "id": 7,
+    "name": "Papel Sulfite A4",
+    "description": "Papel sulfite A4, pacote com 500 folhas.",
+    "preço": 15.00,
+    "image": "./assets/imgs/product7"
+  },
+  {
+    "id": 8,
+    "name": "Corretivo Líquido",
+    "description": "Corretivo líquido de secagem rápida.",
+    "preço": 2.50,
+    "image": "./assets/imgs/product8"
+  },
+  {
+    "id": 9,
+    "name": "Grampeador Médio",
+    "description": "Grampeador médio, capacidade para 20 folhas.",
+    "preço": 7.40,
+    "image": "./assets/imgs/product9"
+  },
+  {
+    "id": 10,
+    "name": "Clips para Papel",
+    "description": "Pacote com 100 clips para papel tamanho médio.",
+    "preço": 1.80,
+    "image": "./assets/imgs/product10"
+  },
+  {
+    "id": 11,
+    "name": "Fita Adesiva Transparente",
+    "description": "Fita adesiva transparente, largura 12mm.",
+    "preço": 3.00,
+    "image": "./assets/imgs/product11"
+  },
+  {
+    "id": 12,
+    "name": "Post-it Amarelo",
+    "description": "Bloco de notas adesivas Post-it, cor amarela.",
+    "preço": 4.50,
+    "image": "./assets/imgs/product12"
+  },
+  {
+    "id": 13,
+    "name": "Tesoura Escolar",
+    "description": "Tesoura escolar com ponta arredondada.",
+    "preço": 5.20,
+    "image": "./assets/imgs/product13"
+  },
+  {
+    "id": 14,
+    "name": "Estojo Escolar",
+    "description": "Estojo escolar em tecido, com zíper.",
+    "preço": 6.70,
+    "image": "./assets/imgs/product14"
+  },
+  {
+    "id": 15,
+    "name": "Calculadora Simples",
+    "description": "Calculadora de 8 dígitos, compacta e prática.",
+    "preço": 9.90,
+    "image": "./assets/imgs/product15"
+  }
+]
